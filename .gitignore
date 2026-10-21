@@ -1,0 +1,14 @@
+# Ignore local Terraform caches and states
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore local automation logs and keys
+*.log
+sre_id_rsa
+sre_id_rsa.pub
+
+# Ignore OS temporary caches
+.DS_Store
+Thumbs.db
